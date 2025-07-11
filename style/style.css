@@ -1,5 +1,4 @@
 
-
 .raleway-font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -16,6 +15,7 @@
 
 body{
      background-color: rgb(245,248,255);
+      margin: 0;
 }
 
 /*HEADER*/
@@ -202,7 +202,47 @@ section{
 
 }
 
+/*IN TOUCH SECTION*/
+.in-touch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 116px;
+}
+.in-touch h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
 
+input{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgb(189, 189, 189);
+    
+    
+}
+
+
+label{
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+
+textarea{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+     border: 1px solid rgb(189, 189, 189);
+     margin-bottom: 20px;
+     resize: none;
+}
 
 
 
