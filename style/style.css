@@ -83,6 +83,13 @@ section{
 }
 
 
+
+.datas{
+    display: flex;
+    justify-content: space-around;  
+}
+
+
 .data h1{
     font-size:80px ;
     font-weight: bold;
@@ -91,14 +98,9 @@ section{
     
 }
 
-.datas{
-    display: flex;
-    justify-content: space-around;
-    
-    
+.data{
+    margin-bottom: 50px;
 }
-
-
 /*USERFEEDBACK SECTION*/
 
 .userfeedback {
