@@ -245,6 +245,44 @@ textarea{
 }
 
 
+/*FOOTER*/
+footer{
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    
+      height: 380px;
+   
+}
+footer h1{
+    font-size: 100px;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 20px;
+  
+}
+
+footer p{
+    color: rgb(99, 93, 93);
+    margin-bottom: 30px;
+}
+
+footer ul{
+    width: 700px;
+  
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+   
+}
+footer li a{
+    text-decoration: none;
+     color: rgb(99, 93, 93);
+    
+
+
+}
 
 
 
@@ -261,8 +299,15 @@ button{
     background-color: rgba(78, 71, 255, 1);
     font-size: 16px ;
     font-weight: bold;
+    cursor: pointer;
 }
-
+button:hover{
+    background-color: rgb(240,196,14);
+    color: black;
+    transform: scale(1.03);
+    transition: 1s ease;
+    
+}
 .section-heading{
     font-size: 40px;
     font-weight: bold;
