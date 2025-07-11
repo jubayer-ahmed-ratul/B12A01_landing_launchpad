@@ -43,6 +43,23 @@ header{
     margin-bottom: 37px;
 }
 
+/*MAIN*/
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*ACTION*/
+.action{
+    margin-top:116px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action img{
+    border-radius: 15px;
+}
 
 /*SHARED RESOURCES*/
 button{
@@ -51,6 +68,18 @@ button{
     border: none;
     padding:  12px 36px;
     border-radius: 10px;
-    
+}
+
+.section-heading{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.section-subheading{
+    margin-top: 10px;
+    color:rgba(37, 36, 50, 0.5) ;
+    font-size: 20px;
 
 }
