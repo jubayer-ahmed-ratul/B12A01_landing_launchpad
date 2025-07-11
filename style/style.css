@@ -1,18 +1,13 @@
-
 .raleway-font {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-
-
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-
   font-style: normal;
 }
-
 body{
      background-color: rgb(245,248,255);
       margin: 0;
@@ -85,7 +80,6 @@ section{
 .users h3{
     font-size: 38px;
     font-weight: bold;
-
 }
 
 
@@ -95,8 +89,6 @@ section{
     margin: 0;
     color:  rgba(78, 71, 255, 1);;
     
-    
-
 }
 
 .datas{
@@ -222,12 +214,9 @@ form{
 input{
     padding: 15px;
     border-radius: 10px;
-    border: none;
     border: 1px solid rgb(189, 189, 189);
-    
-    
+        
 }
-
 
 label{
     margin-top: 15px;
@@ -243,15 +232,12 @@ textarea{
      margin-bottom: 20px;
      resize: none;
 }
-
-
 /*FOOTER*/
 footer{
     background-color: white;
     text-align: center;
     padding-top: 10px;
-    
-      height: 380px;
+    height: 380px;
    
 }
 footer h1{
@@ -268,27 +254,17 @@ footer p{
 
 footer ul{
     width: 700px;
-  
     margin: auto;
     list-style: none;
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
-   
+    margin-top: 10px;  
 }
+
 footer li a{
     text-decoration: none;
      color: rgb(99, 93, 93);
-    
-
-
 }
-
-
-
-
-
-
 
 /*SHARED RESOURCES*/
 button{
@@ -301,22 +277,20 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
+
 button:hover{
     background-color: rgb(240,196,14);
     color: black;
     transform: scale(1.03);
-    transition: 1s ease;
-    
+    transition: 1s ease;    
 }
+
 .section-heading{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 0;
-
 }
 
 .section-subheading{
       color:rgba(37, 36, 50, 0.5) ;
-    
-
 }
